@@ -5,6 +5,7 @@ public class SumPoint<T extends IFunction> implements IFanctional<T>{
     double b;
 
     public SumPoint(double a, double b) {
+
         if(a > b) throw new IllegalArgumentException("Некорректный отрезок!");
         this.a = a;
         this.b = b;

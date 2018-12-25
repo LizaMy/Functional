@@ -21,4 +21,5 @@ public class LineEquation implements IFunction {
     public double getBorderB(){
         return borderB;
     }
+
 }

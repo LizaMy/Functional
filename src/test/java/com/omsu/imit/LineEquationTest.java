@@ -8,8 +8,8 @@ public class LineEquationTest {
     @Test
     public void decideFunctionTest(){
         LineEquation fun = new LineEquation(1,2,1,5);
-        assertEquals("Тестирование 2.1 не пройдено![1/2]", 4, fun.decideFunction(2),0.000001);
-        assertEquals("Тестирование 2.1 не пройдено![2/2]", 5, fun.decideFunction(3),0.000001);
+        assertEquals( 4, fun.decideFunction(2),0.000001);
+        assertEquals( 5, fun.decideFunction(3),0.000001);
     }
     @Test(expected = IllegalArgumentException.class)
     public void decideFunctionTest1(){
