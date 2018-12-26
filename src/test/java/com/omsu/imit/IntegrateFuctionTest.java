@@ -3,7 +3,6 @@ package com.omsu.imit;
 
 import org.junit.Test;
 
-import static junit.framework.TestCase.fail;
 import static org.junit.Assert.*;
 
 
@@ -33,6 +32,7 @@ public class IntegrateFuctionTest {
             IntegrateFuction processor = new IntegrateFuction(1, 5);
             LineEquation fun = new LineEquation(1, 2, 10, 15);
              processor.decideFanctional(fun);
+             fail ();
 
         //  assertEquals( 0, processor.decideFanctional(fun), 0.001);
 

@@ -16,5 +16,7 @@ public class DoubleLineEquationTest {
     public void decideFunctionTest1(){
         DoubleLineEquation fun = new DoubleLineEquation(1,2,3,4,1,5);
         fun.decideFunction(8);
+
+
     }
 }
